@@ -1,0 +1,78 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-color: #f3f0ec;
+}
+.header{
+    background-color: rgba(255, 255, 255, 0.714);
+    border-radius: 20px;
+    margin: 20px;
+    /* padding: 10px; */
+    width: 98vw;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.logo img{
+    height: 40px;
+    position: relative;
+    right: 285px;
+}
+.search-bar{
+    padding: 8px;
+    position: relative;
+    right: 285px;
+}
+.search-bar input{
+    padding: 10px;
+    width: 300px;
+    border-radius: 18px;
+}
+.search-bar img{
+    height: 30px;
+    position: relative;
+    top: 10px;
+    left: 320px;
+
+}
+.top-bar{
+    border-radius: 20px;
+    margin: 20px;
+    width: 98vw;
+    height: 300px;
+    background: #cdaeee;
+    background: radial-gradient(circle, rgba(205, 174, 238, 0.96) 46%, rgba(148, 229, 233, 1) 87%);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.top-bar p{
+    font-size: 55px;
+    font-weight: bold;
+}
+.top-bar .color{
+    color: #090979;
+    color: linear-gradient(90deg,rgba(9, 9, 121, 0.424) 35%, rgba(0, 213, 255, 0.428) 100%);
+}
+.top-bar .gray-small{
+    color: gray;
+    top: 2px;
+    font-size: 25px;
+}
+.bookShelf{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.bookShelf h3{
+    font-size: 40px;
+    position: absolute;
+    right: 1120px;
+    bottom: 1820px;
+    color: rgba(0, 0, 0, 0.791);
+}
