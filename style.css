@@ -9,7 +9,6 @@ body{
     background-color: rgba(255, 255, 255, 0.714);
     border-radius: 20px;
     margin: 20px;
-    /* padding: 10px; */
     width: 98vw;
     border: 1px solid black;
     display: flex;
@@ -19,7 +18,7 @@ body{
 .logo img{
     height: 40px;
     position: relative;
-    right: 285px;
+    right: 240px;
 }
 .search-bar{
     padding: 8px;
@@ -28,15 +27,15 @@ body{
 }
 .search-bar input{
     padding: 10px;
-    width: 300px;
+    width: 500px;
     border-radius: 18px;
+    font-size: 20px;
 }
 .search-bar img{
     height: 30px;
     position: relative;
     top: 10px;
-    left: 320px;
-
+    left: 500px;
 }
 .top-bar{
     border-radius: 20px;
