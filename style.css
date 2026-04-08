@@ -6,7 +6,7 @@ body{
     background-color: #ebbf8dac;
     background-image: url(./assests/book-shelf.png);
     background-size: 90vw;
-    background-position: center 8vh;
+    background-position: center 40vh;
     background-repeat: no-repeat;
     height: 200vh;
 
@@ -44,7 +44,7 @@ body{
     top: 10px;
     left: 500px;
 }
-.top-bar{
+/* .top-bar{
     border-radius: 20px;
     margin: 20px;
     width: 98vw;
@@ -69,6 +69,33 @@ body{
     color: gray;
     top: 2px;
     font-size: 25px;
+} */
+.topBar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 300px;
+    /* border-radius: 20%; */
+    /* border: 1px solid green; */
+
+
+}
+.topBar .img{
+    height: 300px;
+    width: 90vw;
+    background: linear-gradient(
+        to bottom,
+        #f2d4b2,
+        #f2c594,
+        #f2c48f);
+    box-shadow:
+    inset 0 4px 8px #d6a271,    /* top inner */
+    inset 0 -4px 8px #8d5731,   /* bottom inner */
+    inset 4px 0 8px #e6a86c,    /* left inner */
+    inset -4px 0 8px #e6a86c;   /* right inner */
+
+    
 }
 .bookShelf {
     width: 80vw;
@@ -84,18 +111,24 @@ body{
 
 #books {
     width: 80vw;
-    margin: 0 auto 40px;
+    margin: 30px auto 40px;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 16px;
     row-gap: 137.5px;
+    /* border: 1px solid white; */
 }
 #books .card{
     margin: 5px;
     height: 350px;
     width: 200px;
-    border: 1px solid black;
-    background-color: rgba(128, 128, 128, 0.575);
+    /* border-radius: 5%; */
+    /* border: 1px solid black; */
+    /* background-color: rgba(128, 128, 128, 0.575); */
+    /* color: white; */
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
     border-radius: 2%;
 }
 #books .card .bookImage{
@@ -105,7 +138,7 @@ body{
     background-size: contain;
     height: 250px;
     width: 200px;
-    border: 1px solid black;
-    background-color: white;
+    /* border: 1px solid black; */
+    /* background-color: white; */
     border-radius: 2%;
 }
