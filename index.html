@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="./assests/favicon.png" type="image/x-icon">
 </head>
+
 <body>
     <div class="header">
         <div class="logo">
@@ -14,11 +16,20 @@
         </div>
         <div class="search-bar">
             <img src="./assests/search-icon.png" alt="">
-            <input type="text" placeholder="Search by Title or Author..">
+
+            <input type="text" id="search-bar" placeholder="Search by Title or Author..">
         </div>
     </div>
     <div class="topBar">
-        <div class="img"></div>
+        <div class="img">
+            <div>
+                <h1>Explore <span class="text-gradient">Millions</span> of Books Instantly</h1>
+                <h3 style="color: gray;">Discover your next great read from the Open Library's vast</h3><br>
+                <span
+                    style="color: white; background: linear-gradient(to right, #E8732A, #F5C42A); padding: 15px; border-radius: 15px; font-weight: bold;"><label
+                        for="search-bar">Start Searching →</label></span>
+            </div>
+        </div>
     </div>
     <!-- <div class="top-bar">
         <div>
@@ -33,6 +44,7 @@
     </div> -->
     <div id="books"></div>
 
-<script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
+
 </html>
